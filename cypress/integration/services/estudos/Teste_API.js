@@ -19,7 +19,7 @@ context('Teste de API', () => {
     it('Teste de request POST', () => {
 
         /*Envio do BODY como JSON pode ser feito dessa maneira ou como no próximo exemplo
-        Depende muito de cada caso e da sua necessidade */
+        Depende muito de cada caso e da sua necessidade teste */
 
         let body = {}
         body.id = 12345
