@@ -10,8 +10,9 @@ export class HomeLinkedin {
 
     logout = () => {
         cy.wait(2000)
-        cy.get('#ember31').click()
+        cy.get('#ember31 > .global-nav__primary-link-text').click()
         cy.get('.global-nav__secondary-item--divider > .global-nav__secondary-link').click()
-        cy.contains('Sair').click({ force: true })
+        cy.get('#ember31 > .global-nav__primary-link-text').should('be.visible')
+        cy.contains('Sair').should('be.visible').click()
     }
 }
