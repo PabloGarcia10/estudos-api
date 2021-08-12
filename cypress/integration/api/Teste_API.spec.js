@@ -1,7 +1,7 @@
 ///<reference types="cypress"/>
 
-import { ApiRest } from '../../../support/requests/ApiRest.js'
-import { FakeRestAPI } from '../../../support/requests/endpoints/FakeRestAPI.js'
+import { ApiRest } from '../../support/requests/ApiRest.js'
+import { FakeRestAPI } from '../../support/requests/endpoints/FakeRestAPI.js'
 
 context('Teste de API', () => {
 
